@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cremita">#FFFCE9</color>
+    <color name="cafe_oscuro">#3C2C24</color>
+    <color name="amarillo_claro">#FBE8A6</color>
+    <color name="verde_clarito">#A2AA6C</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
