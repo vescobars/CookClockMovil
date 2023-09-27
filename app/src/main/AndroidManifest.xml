@@ -20,6 +20,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Actividad RecetaActivity -->
+        <activity
+            android:name=".RecetaActivity"
+            android:exported="true">
+        </activity>
+
+        <!-- Actividad AlarmasActivity -->
+        <activity
+            android:name=".AlarmasActivity"
+            android:exported="true">
+        </activity>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

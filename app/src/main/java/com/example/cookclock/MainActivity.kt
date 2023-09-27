@@ -1,5 +1,6 @@
 package com.example.cookclock
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -16,7 +17,9 @@ class MainActivity : AppCompatActivity() {
 
         receta_boton.setOnClickListener(object : View.OnClickListener {
             override fun onClick(v: View) {
-                setContentView(R.layout.receta)
+                // Crear un Intent para abrir RecetaActivity
+                val intent = Intent(this@MainActivity, RecetaActivity::class.java)
+                startActivity(intent)
             }
         })
 
