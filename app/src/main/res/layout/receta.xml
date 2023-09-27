@@ -1,0 +1,394 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cremita">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cremita">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="320dp"
+            android:layout_height="68dp"
+            android:layout_gravity="top|left"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/merriweather_bold"
+            android:rotationY="0"
+            android:text="Espaguetis con salsa de queso, pollo y bacon"
+            android:textAlignment="center"
+            android:textColor="@color/cafe_oscuro"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.489"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="354dp"
+            android:layout_height="204dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pastag" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/jost_medium"
+            android:text="Duración: 40 mins"
+            android:textColor="@color/cafe_oscuro"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="45dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:fontFamily="@font/jost_medium"
+            android:text="400g"
+            android:textAlignment="textEnd"
+            android:textColor="@color/cafe_oscuro"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="45dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="32dp"
+            android:fontFamily="@font/jost_medium"
+            android:text="150g"
+            android:textAlignment="textEnd"
+            android:textColor="@color/cafe_oscuro"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="45dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="32dp"
+            android:fontFamily="@font/jost_medium"
+            android:text="4"
+            android:textAlignment="textEnd"
+            android:textColor="@color/cafe_oscuro"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="45dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="32dp"
+            android:fontFamily="@font/jost_medium"
+            android:text="2"
+            android:textAlignment="textEnd"
+            android:textColor="@color/cafe_oscuro"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="45dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="32dp"
+            android:fontFamily="@font/jost_medium"
+            android:text="400g"
+            android:textAlignment="textEnd"
+            android:textColor="@color/cafe_oscuro"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="45dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="32dp"
+            android:fontFamily="@font/jost_medium"
+            android:text="400g"
+            android:textAlignment="textEnd"
+            android:textColor="@color/cafe_oscuro"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="45dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="32dp"
+            android:fontFamily="@font/jost_medium"
+            android:text="400g"
+            android:textAlignment="textEnd"
+            android:textColor="@color/cafe_oscuro"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-8dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/jost_semibold"
+            android:text="Descripción:"
+            android:textColor="@color/cafe_oscuro"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.111"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="1dp"
+            android:fontFamily="@font/jost_medium"
+            android:text="Dificultad: 3/5"
+            android:textColor="@color/cafe_oscuro"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/view"
+            app:layout_constraintEnd_toEndOf="@+id/view"
+            app:layout_constraintTop_toTopOf="@+id/view" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="148dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/rounded_shape"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine"
+            android:layout_width="326dp"
+            android:layout_height="229dp"
+            android:ems="10"
+            android:fontFamily="@font/jost_medium"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:text="Los espaguetis con salsa de queso, pollo y bacon son una combinación perfecta de sabores y texturas que deleitarán tu paladar. La suavidad de los espaguetis al dente se complementa con una salsa cremosa y rica en queso, mientras que el pollo aporta una textura tierna y jugosa. El bacon, por su parte, añade un toque crujiente y salado que eleva el plato a otro nivel."
+            android:textAlignment="viewStart"
+            android:textColor="@color/rojo_cafe"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="198dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/group_100"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="16dp"
+            android:buttonTint="@color/verde_clarito"
+            android:fontFamily="@font/jost_medium"
+            android:text="Espaguetis"
+            android:textColor="@color/rojo_cafe"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginStart="18dp"
+            android:buttonTint="@color/verde_clarito"
+            android:fontFamily="@font/jost_medium"
+            android:text="Bacon"
+            android:textColor="@color/rojo_cafe"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginStart="18dp"
+            android:buttonTint="@color/verde_clarito"
+            android:fontFamily="@font/jost_medium"
+            android:text="Dientes de ajo"
+            android:textColor="@color/rojo_cafe"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox3" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginStart="18dp"
+            android:buttonTint="@color/verde_clarito"
+            android:fontFamily="@font/jost_medium"
+            android:text="Pechugas de pollo"
+            android:textColor="@color/rojo_cafe"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox4" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginStart="18dp"
+            android:buttonTint="@color/verde_clarito"
+            android:fontFamily="@font/jost_medium"
+            android:text="Leche"
+            android:textColor="@color/rojo_cafe"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox5" />
+
+        <CheckBox
+            android:id="@+id/checkBox7"
+            style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginStart="18dp"
+            android:buttonTint="@color/verde_clarito"
+            android:fontFamily="@font/jost_medium"
+            android:text="Mantequilla"
+            android:textColor="@color/rojo_cafe"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox6" />
+
+        <CheckBox
+            android:id="@+id/checkBox8"
+            style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginStart="18dp"
+            android:buttonTint="@color/verde_clarito"
+            android:fontFamily="@font/jost_medium"
+            android:text="Queso rallado"
+            android:textColor="@color/rojo_cafe"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox7" />
+
+        <CheckBox
+            android:id="@+id/checkBox9"
+            style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginStart="18dp"
+            android:buttonTint="@color/verde_clarito"
+            android:fontFamily="@font/jost_medium"
+            android:text="Perejil"
+            android:textColor="@color/rojo_cafe"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox8" />
+
+        <CheckBox
+            android:id="@+id/checkBox10"
+            style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginStart="18dp"
+            android:buttonTint="@color/verde_clarito"
+            android:fontFamily="@font/jost_medium"
+            android:text="Pimienta"
+            android:textColor="@color/rojo_cafe"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox9" />
+
+        <CheckBox
+            android:id="@+id/checkBox11"
+            style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginStart="18dp"
+            android:buttonTint="@color/verde_clarito"
+            android:fontFamily="@font/jost_medium"
+            android:text="Sal"
+            android:textColor="@color/rojo_cafe"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox10" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            style="@android:style/Widget.DeviceDefault.ImageButton"
+            android:layout_width="162dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/cremita"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.189"
+            app:layout_constraintStart_toEndOf="@+id/imageButton2"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox11"
+            app:srcCompat="@drawable/group_20" />
+
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:background="@color/cremita"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox11"
+            app:layout_constraintVertical_bias="0.393"
+            app:srcCompat="@drawable/back" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
