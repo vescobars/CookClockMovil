@@ -16,9 +16,7 @@ class RecetaActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.receta)
 
-        // Asigna el botón a la variable
         botonComenzar = findViewById<ImageButton>(R.id.imageButton)
-        // Configura un clic en el botón para ir a la vista de alarmas
         botonComenzar.setOnClickListener{
             val intent = Intent(this, AlarmasActivity::class.java)
             startActivity(intent)
