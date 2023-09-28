@@ -1,24 +1,25 @@
 package com.example.cookclock
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import android.widget.ImageButton
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var receta_boton: Button
+    private lateinit var login_boton: ImageButton
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.fragment_listar_recetas)
+        setContentView(R.layout.login)
 
-        receta_boton = findViewById<Button>(R.id.button2)
+        login_boton = findViewById<ImageButton>(R.id.imageButton3)
 
-        receta_boton.setOnClickListener(object : View.OnClickListener {
+        login_boton.setOnClickListener(object : View.OnClickListener {
             override fun onClick(v: View) {
-                // Crear un Intent para abrir RecetaActivity
-                val intent = Intent(this@MainActivity, RecetaActivity::class.java)
+                val intent = Intent(this@MainActivity, ListarRecetasActivity::class.java)
                 startActivity(intent)
             }
         })

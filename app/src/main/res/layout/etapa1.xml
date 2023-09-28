@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- res/layout/custom_popup_layout.xml -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="315dp"
+        android:layout_height="424dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#E48B68"
+        android:backgroundTintMode="add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/popupTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/jost_semibold"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Etapa 1 : Preparar la Salsa"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="32dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/jost_semibold"
+            android:text="Descripción:"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.16"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/popupTitle" />
+
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="252dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/jost"
+            android:text="En esta etapa, prepararás una suave salsa de queso con leche, que será el acompañamiento delicioso para tus espaguetis."
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.51"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/jost_semibold"
+            android:text="Utensilios de Cocina"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.238"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="8dp"
+            android:buttonTint="@color/white"
+            android:fontFamily="@font/jost_medium"
+            android:text="Cacerola"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginStart="35dp"
+            android:buttonTint="@color/white"
+            android:fontFamily="@font/jost_medium"
+            android:text="Rallador de queso"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/jost_semibold"
+            android:text="Ingredientes"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.161"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox3" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="45dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:fontFamily="@font/jost_medium"
+            android:text="400ml"
+            android:textAlignment="textEnd"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="8dp"
+            android:buttonTint="@color/white"
+            android:fontFamily="@font/jost_medium"
+            android:text="Leche"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginStart="35dp"
+            android:buttonTint="@color/white"
+            android:fontFamily="@font/jost_medium"
+            android:text="Queso rallado"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox4" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="45dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="32dp"
+            android:fontFamily="@font/jost_medium"
+            android:text="200g"
+            android:textAlignment="textEnd"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

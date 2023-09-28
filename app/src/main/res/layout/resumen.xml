@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/amarillo_claro">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/component_25__2_" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/Widget.AppCompat.TextView.SpinnerItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/merriweather_bold"
+        android:rotationY="0"
+        android:text="Resumen"
+        android:textAlignment="center"
+        android:textColor="@color/cafe_oscuro"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView8"
+        app:layout_constraintStart_toStartOf="@+id/imageView8"
+        app:layout_constraintTop_toTopOf="@+id/imageView8" />
+
+    <TextView
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="70dp"
+        android:ems="10"
+        android:fontFamily="@font/jost"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="Espaguetis con salsa de queso, pollo y bacon"
+        android:textAlignment="center"
+        android:textColor="@color/rojo_cafe"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView8"
+        app:layout_constraintStart_toStartOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/jost"
+        android:lineSpacingExtra="10sp"
+        android:text="Dificultad: 3/5 \nDuración Esperada: 40 min \nDuración Real: 50 min"
+        android:textColor="@color/rojo_cafe"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView8"
+        app:layout_constraintStart_toStartOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+        app:layout_constraintEnd_toEndOf="@+id/imageView8"
+        app:layout_constraintStart_toStartOf="@+id/imageView8"
+        app:srcCompat="@drawable/group_20__1_" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

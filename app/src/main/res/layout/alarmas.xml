@@ -1,16 +1,428 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/amarillo_claro">
+    android:layout_height="wrap_content"
+    android:background="@color/cremita">
 
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/component_25__1_"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="125dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cremita">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/Widget.AppCompat.TextView.SpinnerItem"
+            android:layout_width="343dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/merriweather_bold"
+            android:rotationY="0"
+            android:text="Espaguetis con salsa de queso, pollo y bacon"
+            android:textAlignment="center"
+            android:textColor="@color/cafe_oscuro"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView30"
+            style="@style/Widget.AppCompat.TextView.SpinnerItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/merriweather_bold"
+            android:rotationY="0"
+            android:text="Alarmas"
+            android:textAlignment="center"
+            android:textColor="@color/cafe_oscuro"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view6" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="354dp"
+            android:layout_height="204dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:srcCompat="@drawable/pastag" />
+
+        <Space
+            android:id="@+id/space"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton19" />
+
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/vector"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/jost_semibold"
+            android:text="Etapa 1 :  Preparar la Salsa"
+            android:textColor="@color/cafe_oscuro"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.171"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="23dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="22dp"
+            android:background="@color/cremita"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toEndOf="@+id/textView10"
+            app:layout_constraintTop_toBottomOf="@+id/textView30"
+            app:srcCompat="@drawable/ic_baseline_info" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:autoSizeMaxTextSize="26dp"
+            android:autoSizeTextType="uniform"
+            android:backgroundTint="@color/amarillo_claro"
+            android:fontFamily="@font/jost_medium"
+            android:lineSpacingExtra="-5sp"
+            android:paddingLeft="100dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="35dp"
+            android:text="Sofrito de Ajo"
+            android:textAlignment="viewStart"
+            android:textColor="@color/rojo_cafe"
+            app:cornerRadius="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.405"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <ImageButton
+            android:id="@+id/imageButton9"
+            android:layout_width="103dp"
+            android:layout_height="106dp"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="#00FFFFFF"
+            android:scaleType="fitEnd"
+            app:layout_constraintBottom_toBottomOf="@+id/button2"
+            app:layout_constraintEnd_toEndOf="@+id/button2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/button2"
+            app:srcCompat="@drawable/component_20" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/jost"
+            android:text="5 minutos"
+            android:textColor="@color/negro_cafe"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/button2"
+            app:layout_constraintEnd_toEndOf="@+id/button2"
+            app:layout_constraintHorizontal_bias="0.3"
+            app:layout_constraintStart_toStartOf="@+id/button2"
+            app:layout_constraintTop_toTopOf="@+id/button2"
+            app:layout_constraintVertical_bias="0.761" />
+
+
+
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:autoSizeMaxTextSize="20dp"
+            android:autoSizeTextType="uniform"
+            android:backgroundTint="@color/amarillo_claro"
+            android:fontFamily="@font/jost_medium"
+            android:lineSpacingExtra="-5sp"
+            android:paddingLeft="90dp"
+            android:paddingTop="0dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="35dp"
+            android:text="Derretir y mezclar"
+            android:textAlignment="viewStart"
+            android:textColor="@color/rojo_cafe"
+            app:cornerRadius="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.405"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+        <ImageButton
+            android:id="@+id/imageButton11"
+            android:layout_width="90dp"
+            android:layout_height="91dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#00FFFFFF"
+            android:scaleType="fitEnd"
+            app:layout_constraintBottom_toBottomOf="@+id/button3"
+            app:layout_constraintEnd_toEndOf="@+id/button3"
+            app:layout_constraintHorizontal_bias="0.008"
+            app:layout_constraintStart_toStartOf="@+id/button3"
+            app:layout_constraintTop_toTopOf="@+id/button3"
+            app:srcCompat="@drawable/component_20" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="92dp"
+            android:fontFamily="@font/jost"
+            android:text="5 minutos"
+            android:textColor="@color/negro_cafe"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/button3"
+            app:layout_constraintStart_toStartOf="@+id/button3"
+            app:layout_constraintTop_toTopOf="@+id/button3"
+            app:layout_constraintVertical_bias="0.702" />
+
+
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:autoSizeMaxTextSize="20dp"
+            android:autoSizeTextType="uniform"
+            android:backgroundTint="@color/amarillo_claro"
+            android:fontFamily="@font/jost_medium"
+            android:lineSpacingExtra="-5sp"
+            android:paddingLeft="90dp"
+            android:paddingTop="0dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="35dp"
+            android:text="Textura cremosa"
+            android:textAlignment="viewStart"
+            android:textColor="@color/rojo_cafe"
+            app:cornerRadius="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.405"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+        <ImageButton
+            android:id="@+id/imageButton13"
+            android:layout_width="90dp"
+            android:layout_height="91dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#00FFFFFF"
+            android:scaleType="fitEnd"
+            app:layout_constraintBottom_toBottomOf="@+id/button4"
+            app:layout_constraintEnd_toEndOf="@+id/button4"
+            app:layout_constraintHorizontal_bias="0.008"
+            app:layout_constraintStart_toStartOf="@+id/button4"
+            app:layout_constraintTop_toTopOf="@+id/button4"
+            app:srcCompat="@drawable/component_20" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="92dp"
+            android:fontFamily="@font/jost"
+            android:text="10 minutos"
+            android:textColor="@color/negro_cafe"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/button4"
+            app:layout_constraintStart_toStartOf="@+id/button4"
+            app:layout_constraintTop_toTopOf="@+id/button4"
+            app:layout_constraintVertical_bias="0.702" />
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/jost_semibold"
+            android:text="Etapa 2 : Cocer Espaguetis"
+            android:textColor="@color/cafe_oscuro"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.171"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+        <ImageButton
+            android:id="@+id/imageButton15"
+            android:layout_width="23dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="22dp"
+            android:background="@color/cremita"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toEndOf="@+id/textView7"
+            app:layout_constraintTop_toBottomOf="@+id/button4"
+            app:srcCompat="@drawable/ic_baseline_info" />
+
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:autoSizeMaxTextSize="20dp"
+            android:autoSizeTextType="uniform"
+            android:backgroundTint="@color/amarillo_claro"
+            android:fontFamily="@font/jost_medium"
+            android:lineSpacingExtra="-5sp"
+            android:paddingLeft="90dp"
+            android:paddingTop="0dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="35dp"
+            android:text="Hervir agua"
+            android:textAlignment="viewStart"
+            android:textColor="@color/rojo_cafe"
+            app:cornerRadius="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.405"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+        <ImageButton
+            android:id="@+id/imageButton16"
+            android:layout_width="90dp"
+            android:layout_height="91dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#00FFFFFF"
+            android:scaleType="fitEnd"
+            app:layout_constraintBottom_toBottomOf="@+id/button5"
+            app:layout_constraintEnd_toEndOf="@+id/button5"
+            app:layout_constraintHorizontal_bias="0.008"
+            app:layout_constraintStart_toStartOf="@+id/button5"
+            app:layout_constraintTop_toTopOf="@+id/button5"
+            app:srcCompat="@drawable/component_20" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="92dp"
+            android:fontFamily="@font/jost"
+            android:text="5 minutos"
+            android:textColor="@color/negro_cafe"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/button5"
+            app:layout_constraintStart_toStartOf="@+id/button5"
+            app:layout_constraintTop_toTopOf="@+id/button5"
+            app:layout_constraintVertical_bias="0.702" />
+
+
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:autoSizeMaxTextSize="20dp"
+            android:autoSizeTextType="uniform"
+            android:backgroundTint="@color/amarillo_claro"
+            android:fontFamily="@font/jost_medium"
+            android:lineSpacingExtra="-5sp"
+            android:paddingLeft="90dp"
+            android:paddingTop="0dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="35dp"
+            android:text="Cocinar Espaguetis"
+            android:textAlignment="viewStart"
+            android:textColor="@color/rojo_cafe"
+            app:cornerRadius="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.405"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+        <ImageButton
+            android:id="@+id/imageButton17"
+            android:layout_width="90dp"
+            android:layout_height="91dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#00FFFFFF"
+            android:scaleType="fitEnd"
+            app:layout_constraintBottom_toBottomOf="@+id/button6"
+            app:layout_constraintEnd_toEndOf="@+id/button5"
+            app:layout_constraintHorizontal_bias="0.008"
+            app:layout_constraintStart_toStartOf="@+id/button6"
+            app:layout_constraintTop_toTopOf="@+id/button6"
+            app:srcCompat="@drawable/component_20" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="92dp"
+            android:fontFamily="@font/jost"
+            android:text="15 minutos"
+            android:textColor="@color/negro_cafe"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/button6"
+            app:layout_constraintStart_toStartOf="@+id/button6"
+            app:layout_constraintTop_toTopOf="@+id/button6"
+            app:layout_constraintVertical_bias="0.702" />
+
+
+
+        <ImageButton
+            android:id="@+id/imageButton19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@color/cremita"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button6"
+            app:srcCompat="@drawable/group_104__1_" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
